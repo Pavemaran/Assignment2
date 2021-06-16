@@ -46,10 +46,8 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="form-group row">
-                    <div class="col-6-sm-2">
-                        <nav class="navbar navbar-dark navbar-expand-sm fixed-bottom">
-
-                        </nav>
+                    <div class="offset-md-2 col-md-12">
+                        <a href="#reserve"><button type="button" class="btn btn-warning">Reserve Table</button></a>
                     </div>
             </div>
         </div>
@@ -107,7 +105,7 @@
         </div>
     </div>
 
-        <div class="row justify-content-center align-items-center">
+        <div id="reserve" class="row justify-content-center align-items-center">
             <div class="col-sm-6">
                 <div class="card">
                     <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
@@ -142,12 +140,12 @@
                                   </div>
                                   <div class="form-group row">
                                     <label for="dateandtime" class="col-sm-2 col-form-label">Date and Time</label>
-                                    <div class="col-2 col-md-5">
-                                        <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                                    <div class="col-5 col-md-4">
+                                        <input type="text" class="form-control" id="date" name="date" placeholder="Date">
                                     </div>
-                                    <div class="col-5 col-md-5">
-                                        <input type="time" class="form-control" id="time" name="time" placeholder="Time">
-                                    </div>
+                                    <div class="col-5 col-md-4">
+                                        <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                                    </div>  
                                   </div>
                                 <div class="form-group row">
                                     <div class="offset-md-2 col-md-10">
